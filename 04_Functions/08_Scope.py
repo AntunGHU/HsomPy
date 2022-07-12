@@ -25,7 +25,7 @@ greet("Mosh")
 
 print(message)  # a samo globalnu, do lokalne ne dopire!
 
-# do lokalne se ne dopire ali ni finkcija do globalne, da bi mogla, unutar funs dodajemo "global message" sto je potrebno interpretery da inicijalizira varijablu, a red ispod joj odmah mjenja vrijednost sa "a" na "b" pa zato "b"
+# do lokalne se ne dopire ali ni funkcija do globalne, da bi mogla, unutar funs dodajemo "global message" sto je potrebno interpretery da inicijalizira varijablu, a red ispod joj odmah mjenja vrijednost sa "a" na "b" pa zato "b"
 
 message =  "a"
 

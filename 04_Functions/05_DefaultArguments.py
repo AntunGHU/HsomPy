@@ -9,7 +9,7 @@ def increment(broj, za=100):
     return broj + za
 print(increment(1))
 
-# ali ako zeli drugi "za" samo ga dodam u poziv
+# ali ako zeli drugaciji "za" samo ga dodam u poziv
 
 def increment(broj, za=100): 
     return broj + za
