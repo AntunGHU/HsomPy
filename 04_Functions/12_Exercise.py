@@ -14,8 +14,8 @@ def fizz_buzz(input):
     elif input % 3 == 0:
         return "Fizz"
     return input
-    
-    
+
+
 print(fizz_buzz(3))     # Fizz
 print(fizz_buzz(10))    # Buzz
 print(fizz_buzz(15))    # FizzBuzz

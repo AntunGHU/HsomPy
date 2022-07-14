@@ -3,10 +3,11 @@
 # slicno za home, ende, up, down linija, komanje opet ne radi, inteli sense
 
 def multiply(*numbers):
-    total =  1
+    total = 1
     for number in numbers:
-        total*= number
+        total *= number
     return total
 
-print("Start")    
-multiply(1,2,3)
+
+print("Start")
+multiply(1, 2, 3)
