@@ -20,4 +20,4 @@ print(fizz_buzz(3))     # Fizz
 print(fizz_buzz(10))    # Buzz
 print(fizz_buzz(15))    # FizzBuzz
 print(fizz_buzz(7))    # 7
-print(fizz_buzz(8))
+print(fizz_buzz(8))     # 8
