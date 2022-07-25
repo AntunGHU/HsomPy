@@ -5,7 +5,6 @@ items = [
     ("pr2", 9),
     ("pr3", 8)
 ]
-items.sort()
 
 # recimo da zelimo iz "items"a izvuci samo cijene i od njih formirati listu cjena
 

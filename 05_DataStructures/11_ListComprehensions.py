@@ -1,6 +1,6 @@
 # 3'10
 
-# kao zgodan nastavak na mapiranja kroz map i filter je LC koji to sve isto moze i kojeg necemo sretati u drugim pr. jezicima
+# kao zgodan nastavak na map i filter je LC koji to sve isto moze i kojeg necemo sretati u drugim pr. jezicima
 items = [
     ("pr1", 10),
     ("pr2", 9),

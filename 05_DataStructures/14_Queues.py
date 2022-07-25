@@ -2,7 +2,7 @@
 
 # FIFO - tj First In Firs Out
 
-# ako bi htjeli micati prvi objekt velikih lista, puno treba uciniti da se svi itemi pomaknu i promjene idexe itd. Zato imamo "dque" modul
+# ako bi htjeli micati prvi objekt velikih lista, puno treba uciniti da se svi itemi pomaknu i promjene idexe itd. Zato imamo "deque" modul
 
 from collections import deque
 

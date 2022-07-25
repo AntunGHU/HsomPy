@@ -5,7 +5,7 @@ items = [
     ("pr2", 9),
     ("pr3", 12)
 ]
-items.sort()
+
 
 # zelimo npr samo cijene >= 10
 
