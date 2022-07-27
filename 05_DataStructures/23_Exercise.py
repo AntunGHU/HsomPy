@@ -38,7 +38,7 @@ pprint(char_frequency, width=1)  # .{' ': 5,
 
 print(sorted(char_frequency.items()))  # izlaz dole
 # [(' ', 5), ('T', 1), ('a', 1), ('c', 1), ('e', 3), ('h', 1), ('i', 5), ('m', 2), ('n', 3), ('o', 3), ('q', 1), ('r', 1), ('s', 3), ('t', 2), ('u', 1), ('v', 1), ('w', 1)]
-# # dobili smo liostu tuplova koja po def-u nije sortirana jer "sortied" mije imao instrukcije za sortiranje! Ali ako mu sosamo key za sortiranje pomocu lambda funkcije
+# # dobili smo listu tuplova koja po def-u nije sortirana jer "sortied" nije imao instrukcije za sortiranje! Ali ako mu dodamo key za sortiranje pomocu lambda funkcije
 print(sorted(char_frequency.items(), key=lambda kv: kv[1]))
 # [('T', 1), ('h', 1), ('a', 1), ('c', 1), ('r', 1), ('v', 1), ('w', 1), ('q', 1), ('u', 1), ('m', 2), ('t', 2), ('s', 3), ('o', 3), ('n', 3), ('e', 3), ('i', 5), (' ', 5)]
 # i sad nam jos preostaje reversed-ati sortanje

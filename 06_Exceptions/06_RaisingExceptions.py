@@ -8,7 +8,7 @@ def calculate_xfactor(age):
 
 
 # calculate_xfactor(-1)   # ValueError: Age cannot be a zero ili manje!
-# program se krasio jer nemamo try blok ali pokazali smo point! mozemo samo unositi greske! ZA pravilan tretman kod dole!
+# program se krasao jer nemamo try blok ali pokazali smo point! mozemo samo unositi greske! ZA pravilan tretman vidi kod dole!
 
 
 def calculate_xfactor(age):

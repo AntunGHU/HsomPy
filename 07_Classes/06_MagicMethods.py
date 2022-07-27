@@ -1,6 +1,6 @@
 # 3'13
 
-# dok cemo ovdje pogledati neke za vise googlaj sa "python 3 magic methods" sto ce nam dati pristup stranici https://rszalski.github.io/magicmethods/ koju mosh smatra boljom od py-doc jer je kategorizirano i klasificirano. Priomjer sa repr. Potom pokazuje kako i mi mozemo defati dundere:
+# dok cemo ovdje pogledati neke, za vise googlaj sa "python 3 magic methods" sto ce nam dati pristup stranici https://rszalski.github.io/magicmethods/ koju mosh smatra boljom od py-doc jer je kategorizirano i klasificirano. Primjer sa repr. Potom pokazuje kako i mi mozemo defati dundere:
 
 class Point:
     def __init__(self, x, y):
@@ -19,6 +19,6 @@ point.draw()    # Point (1, 2)
 
 print(point)  # 1,2 a ne kao prije <__main...
 
-# dunder se mozue koristiti i na sljedeci nacin
+# dunder se moze koristiti i na sljedeci nacin
 
 print(str(point))  # 1,2

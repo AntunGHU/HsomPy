@@ -16,7 +16,8 @@ except ValueError as error:
     pass
 """
 
-print("code1=", timeit(code1, number=10000))  # Age cannot be a zero ili manje!
+print("code1=", timeit(code1, number=10000))
+# ? Age cannot be a zero ili manje!
 # ? Age cannot be a zero ili manje!
 # ? Age cannot be a zero ili manje!
 # ? Age cannot be a zero ili manje!
@@ -40,7 +41,8 @@ if xfactor == None:
     pass
 """
 
-print("code2=", timeit(code2, number=10000))  # Age cannot be a zero ili manje!
+print("code2=", timeit(code2, number=10000))
+# ? Age cannot be a zero ili manje!
 
 # Na kraju se pokazuje 2-3 puta razlika u vremenu:
 code1 = 0.003282243007561192

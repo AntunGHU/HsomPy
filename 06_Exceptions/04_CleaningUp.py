@@ -1,6 +1,6 @@
 # 1'57
 
-# Uvod Atha sa pricom kako nasi programi cesto koriste druge module i resurse i ako je bitno da ih odmah i zatvore jer ako ih ne zatvore drugi koji ih budu trebali nece ih moci otvoriti!
+# Uvod Atha sa pricom kako nasi programi cesto koriste druge module i resurse i kako je bitno da ih odmah i zatvore jer ako ih ne zatvore drugi koji ih budu trebali nece ih moci otvoriti!
 # Ta logika u sklopu pojave gresaka dovodi do pojave da greske sprecavaju zatvaranje fajla.
 
 try:

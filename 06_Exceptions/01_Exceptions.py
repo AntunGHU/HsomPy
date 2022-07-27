@@ -3,7 +3,7 @@
 # Pr.1
 nums = [1, 2]
 # print(nums[3])  #? IndexError: list index out of range
-# greska koja se pojavila rezultat je prograsmerove greske i zavrsava app
+# greska koja se pojavila rezultat je programerove greske i zavrsava app
 
 # Pr2.
 age = int(input("Age: "))

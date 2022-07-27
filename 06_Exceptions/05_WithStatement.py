@@ -1,6 +1,6 @@
 # 3'07
 
-# Ovdje je Ath mislio kako je pravo mjesto da i nastavi sa openima fajlova te je predstaviop "with" koji je finally ucinio nepotrebnim!
+# Ovdje je Ath mislio kako je pravo mjesto da i nastavi sa openima fajlova te je predstavio "with" koji je finally ucinio nepotrebnim!
 
 try:
     with open("app.py") as file:

@@ -1,4 +1,5 @@
 # 4'10
+
 try:
     age = int(input("Age: "))
 except ValueError as ex:
