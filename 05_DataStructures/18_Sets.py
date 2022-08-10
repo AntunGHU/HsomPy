@@ -10,11 +10,14 @@ uniques = set(numbers)
 print(uniques)  # {1, 2, 3, 4}
 
 second = {4, 5, 6}
-# second.add(remove itd) # metodi
-len(second)
+second.add(7)
+second.remove(4) # second.add(remove itd) # metodi
+print(len(second))
+print(second)
+
 
 # posebno sjaje u set-operacijama & | - ^
-
+second = {4, 5, 6}
 print(uniques | second)  # {1, 2, 3, 4, 5, 6}
 print(uniques & second)  # {4}
 print(uniques - second)  # {1, 2, 3}

@@ -13,10 +13,10 @@ else:
     print("No exceptions were thrown.")
 print("Izvodjenje se nastavalja!")
 
-# kao Mashovstine malo dodao je i mogucnost jos jednog open-ovanja za jedan with i malo spominjao osobine class-e i dundere __enter__ i __exit__
+# kao Mashovstine malo dodao je i mogucnost jos jednog open-ovanja za jedan with; dunderi __enter__ i __exit__ cine tzv context mngment protocol i omogucavaju objektima koji ih imaju rad sa with tj automatsko zatvaranje!
 
 try:
-    with open("app.py") as file, open(drugifajl.txt) as target:
+    with open("app.py") as file, open("drugifajl.txt") as target:
         print("File opened!")
     age = int(input("Age: "))
     xfactor = 10 / age

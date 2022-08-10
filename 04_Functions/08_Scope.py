@@ -1,19 +1,18 @@
 # 5'09
 
-from email import message
-
-
 def greet(name):
     message = "a"
 
-# ? print(a)        # NameError: name 'a' is not defined
+# ? print(message)        # NameError: name 'message' is not defined
+# ? print(name)        # NameError: name 'name' is not defined
 
 
 def send_email(name):
     message = "b"
+    return message
 
 
-greet("Mosh")
+print(greet("Mosh"))    # None
 
 # garbage -collector, py lokalne varijable brise iz memorije!
 # Osim lokalnih imamo i globalne varijable koje su na identation-level 0! i koje u memoriji stoje duze vremena! Ali zato su very evel i ne bi ih trebali koristiti very offten.
@@ -25,11 +24,11 @@ def greet(name):
     message = "b"
 
 
-greet("Mosh")
+print(greet("Mosh"))
 
 print(message)  # a samo globalnu, do lokalne ne dopire!
 
-# do lokalne se ne dopire ali ni funkcija do globalne, da bi mogla, unutar funs dodajemo "global message" sto je potrebno interpretery da inicijalizira varijablu, a red ispod joj odmah mjenja vrijednost sa "a" na "b" pa zato "b"
+# do lokalne se ne dopire ali ni funkcija do globalne, da bi mogla, unutar funs dodajemo "global message" sto je potrebno interpretery da inicijalizira varijablu a red ispod joj odmah mjenja vrijednost sa "a" na "b" pa zato "b"
 
 message = "a"
 
@@ -39,7 +38,7 @@ def greet(name):
     message = "b"
 
 
-greet("Mosh")
+print(greet("Mosh"))
 
 print(message)  # b
 

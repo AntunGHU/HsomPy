@@ -18,12 +18,12 @@ try:
 except ValueError:
     print("Unesi broj!")
 except ZeroDivisionError:
-    print("Age nemoze biti nula!")
+    print("Age ne moze biti nula!")
 else:
     print("No exceptions were thrown.")
 print("Izvodjenje se nastavalja!")
 
-# ili objedinjavanjem u jedan excetion
+# ili objedinjavanjem u jedan exception
 try:
     age = int(input("Age: "))
     xfactor = 10 / age

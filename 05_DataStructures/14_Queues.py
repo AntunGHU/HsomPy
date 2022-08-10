@@ -14,3 +14,4 @@ queue.popleft()
 print(queue)    # deque([2, 3])
 if not queue:
     print("empty")
+

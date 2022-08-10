@@ -7,7 +7,7 @@ code1 = """
 def calculate_xfactor(age):
     if age <= 0:
         raise ValueError("Age cannot be a zero ili manje!")  # Age...
-    return 10 / 0
+    return 10 / age
 
 
 try:
@@ -33,7 +33,7 @@ code2 = """
 def calculate_xfactor(age):
     if age <= 0:
         return None
-    return 10 / 0
+    return 10 / age
 
 
 xfactor = calculate_xfactor(-1)
