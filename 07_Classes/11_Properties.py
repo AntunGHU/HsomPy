@@ -9,7 +9,7 @@
 
 # ? product = Product(-50)
 
-# jedno od rijesenja je da se atrinut dodavanjem double-single (mangeln) dundera ucini privatnim i dodaju metodi geter i setter a u constructoru (initu) umjesto direktnog proklamiranja atributa stavimo ga preko setera!
+# jedno od rijesenja je da se atribut dodavanjem double-single (mangeln) dundera ucini privatnim i dodaju metodi geter i setter a u constructoru (initu) umjesto direktnog proklamiranja atributa stavimo ga preko setera!
 
 
 # ? class Product:

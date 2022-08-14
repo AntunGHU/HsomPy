@@ -18,7 +18,7 @@ point = Point(1, 2)
 point.z = 10
 point.draw()    # Point (1, 2)
 
-# svi atributi do sada su tzv "instance" atributi
+# atributi do sada su tzv "instance" atributi i klasni default_color
 
 another = Point(3, 4)
 another.draw()      # Point (3, 4)

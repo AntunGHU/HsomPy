@@ -1,5 +1,4 @@
-"""_summary_
-    """  # 3'59
+# 3'59
 
 # o korisnim metodama rada sa path-objektom
 

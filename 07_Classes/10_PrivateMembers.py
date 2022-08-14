@@ -1,6 +1,6 @@
 # 3'40
 
-# Hoce pokazati znacaj __dunder ili mangeling dunder-a. Sve skupa pada na ispitu namjeravane kratkoce i jednostavnosti. Da sam od njega poceo, odmah bi odustao od svega!
+# Hoce pokazati znacaj __dundera ili mangeling dunder-a. Sve skupa pada na ispitu namjeravane kratkoce i jednostavnosti. Da sam od njega poceo, odmah bi odustao od svega!
 # pokazao i primjenio F2 tj renaming na tags u __tags
 
 

@@ -11,5 +11,5 @@ print(dir(sales))
 # ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'calculate_shipping', 'contact']
 print(sales.__name__)  # ecommerce.shoping.sales
 print(sales.__package__)  # ecommerce.shoping
-# d:\za_PC\py\aCode\HsomPy\08_Modules\ecommerce\shoping\sales.py
+# d:\za_PC\py\aCode\HsomPy\08_Modules\ecommerce\shoping\sales.py #Lin: /home/antun/aCod/HsomPy/08_Modules/ecommerce/shoping/sales.py
 print(sales.__file__)

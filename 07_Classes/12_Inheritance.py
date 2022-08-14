@@ -24,4 +24,4 @@ class Fish(Animal):
 m = Mamal()
 m.eat()
 m.walk()
-m.age   # 1
+print(m.age)   # 1

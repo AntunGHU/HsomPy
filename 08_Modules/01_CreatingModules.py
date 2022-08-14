@@ -11,7 +11,6 @@ calculate_shipping()
 # imefajla ide samo ako je u istom dir-u kao i fajl koji ga poziva, inace se mora napisati apsolutni path
 # ako zelimo importati vise funkcija u jednom from-u koristimo zarez
 # koristenje * radi importa svega je bad pactice jer se mogu pojaviti istoimene funkcije i sl koji ce onda overwritten istoimene u nasem fajlu!
-# drugi nacin importa je
-# ali tada pozivanje mora ici sa imenom modula
+# drugi nacin importa je pozivanje sa imenom modula
 
 sales.calculate_shipping()

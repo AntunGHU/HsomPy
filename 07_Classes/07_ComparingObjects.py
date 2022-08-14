@@ -13,15 +13,14 @@ class Point:
 
 
 point = Point(10, 20)
-other = Point(1, 2)
+point2 = Point(1, 2)
 
-print(point == other)   # False pa True
+print(point == point2)   # False pa True
 
 # ponovo na superstranicu i poblize u odjeljak "comparison magic methods"
 # sada nakon nadopune sa dunderom eq oni postaju ==
 
 # prosiruje sa pokusajem >
 # TypeError: '>' not supported between instances of 'Point' and 'Point'
-print(point > other)    # False a nakon izmjene koordinata True
-
+print(point > point2)    # False a nakon izmjene koordinata True
 # zato opet idemo nadopuniti klasu sa novim dudnderom "gt" (greater than) poslije kojeg umjesto error dobijemo True - False

@@ -12,7 +12,7 @@ class Point:
 
 
 point = Point(10, 20)
-other = Point(1, 2)
-combo = point + other
+point2 = Point(1, 2)
+combo = point + point2
 print(combo)  # <__main__.Point object at 0x7fc585ba0f70>
 print(combo.x)  # 11

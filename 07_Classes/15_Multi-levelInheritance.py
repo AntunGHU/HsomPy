@@ -16,4 +16,4 @@ class Bird(Animal):
 class Chicken(Bird):
     pass
 
-# ali!!! piloe ne moze letjeti i vec smo neprecizni!!!
+# ali!!! pile ne moze letjeti i vec smo neprecizni!!!

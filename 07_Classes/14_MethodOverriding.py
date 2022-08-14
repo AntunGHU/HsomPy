@@ -22,7 +22,7 @@ class Mamal(Animal):
 m = Mamal()
 # print(m.age)    # AttributeError: 'Mamal' object has no attribute 'age'
 # Dakle, init Mamala je overridao init Animal-a! Ako ne zelimo da se to desi moramo posebno koristenjem linije "super()" pozvati i init Animal-a
-print(m.weight)  # 2 -radi posle dodavanja super()
+print(m.weight)  # 2
 print(m.age)  # 1 - radi posle dodavanja super()
 
 

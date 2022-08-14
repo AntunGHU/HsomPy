@@ -11,7 +11,7 @@ path = Path("ecommerce")  # path-object koji predstavlja dir
 
 print(path.iterdir())  # <generator object Path.iterdir at 0x7fb45b56dcf0>
 
-# posto je generator mozemož
+# posto je generator mozemo
 
 for p in path.iterdir():
     print(p)

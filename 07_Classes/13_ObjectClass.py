@@ -21,7 +21,7 @@ m.age   # 1
 print(isinstance(m, Mamal))  # True
 print(isinstance(m, Animal))  # True
 
-# do sad je sve evidentno. Ono sto ova lekcija donosi je ono sto nije a to je da klasa Animal takodjer nasljedjuje od klase object!!! iako to nije upisano u zagrade. Klasa object je base-klasa svih klasa u Py!
+# do sad je sve evidentno. Ono sto ova lekcija donosi je da klasa Animal takodjer nasljedjuje od klase object!!! iako to nije upisano u zagrade. Klasa object je base-klasa svih klasa u Py!
 
 print(isinstance(m, object))  # True
 o = object()
