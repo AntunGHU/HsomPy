@@ -37,7 +37,10 @@ print(id(p2))       # 139838110994144
 
 # medjutim pisati sav ovaj kod za "data"-klase je dosadno pa kod takvih mozemo koristiti "namedtuple" -funkciju koja se importa iz  "collections"-a. Vidi gore
 
-Point = namedtuple("Point", ["x", "y"])
-p1 = Pointe(x=1, y=2)
-p2 = Pointe(x=1, y=2)
-print(p1 == p2)     # True
+Pointi = namedtuple("Pointi", ["x", "y"]) # Pointi-string: ime klase koja ima samo datas; []-lista stringova-imena atributa
+p3 = Pointi(x=1, y=2)   # obavezno koristenje key-word argumenata!!!
+p4 = Pointi(x=1, y=2)
+print(p4.y) # 2
+print(p3 == p4)     # True
+
+# Dakle, ako radimo sa klasama koje imaju samo datas (atribute) imamo mogucnost koristenja funkcije namedtuple kad cemo pisati manje koda!!!! 

@@ -6,7 +6,7 @@
 
 # ? import sales
 
-# popravak promlema ide kroz kreiranje fajla "__init__.py"  u mapi "ecommerce" sto ce pretvoriti mapu u package
+# popravak problema ide kroz kreiranje fajla "__init__.py"  u mapi "ecommerce" sto ce pretvoriti mapu u package
 # potom nas import upotpunimo
 
 from ecommerce import sales

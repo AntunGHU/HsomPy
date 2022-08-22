@@ -16,8 +16,8 @@ print(text.duplicate())  # PythonPython
 # sad primjer prosirenja append-metoda (ala Tloc)
 class TrackableList(list):
     def append(self, object):
-        print("Append called!")
-        super().append(object)
+        print("Append called!")     # prosirenje!
+        super().append(object)      # zvanje standardnih osobina appenda!
 
 
 list = TrackableList()

@@ -2,9 +2,8 @@
 
 from abc import ABC, abstractmethod
 
-
-class UIControl(ABC):
-    # abstractClassa samo propisuje sto bi njeni derivati trebali sljediti
+  
+class UIControl(ABC): # abstractClassa samo propisuje sto bi njeni derivati trebali sljediti
     @abstractmethod
     def draw(self):
         pass

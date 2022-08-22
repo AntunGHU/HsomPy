@@ -20,4 +20,5 @@ def draw(controls):
         control.draw()
 
 
-# uvjet za to je da "(controls)" argument bude iterabilan i da ima draw metod, tj ako se glasa kao patka, ako lici kao patka onda je patka!!!
+# uvjet za to je da "(controls)" argument bude iterabilan i da ima draw metod, tj ako se glasa kao patka, ako lici kao patka onda je patka!!! tj ako imaju isti (draw) metod i ako su iterabilni, objekti ce biti prozvakani kroz funkciju draw koja ce i na njima biti polimorfna iako oni nisu potomci abstract-klasa!!!
+# Py je dinamical-type of langugage i ne kontrolira type of object, samo gleda da objekt zadovoljava uvjete tj da ima trazeni metod (draw) i da je iterabilan. To ne znaci da ne bi smo rebali nastojati koristiti abc-klase jer njima prinudjavamo izradu subklasa sa unificiranim suceljem tj da svi imaju istu metodu (draw ovdje)!

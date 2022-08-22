@@ -19,6 +19,8 @@ point.draw()    # Point (1, 2)
 
 print(point)  # 1,2 a ne kao prije <__main...
 
-# dunder se moze koristiti i na sljedeci nacin
+# svaki dunder se moze koristiti i na __dunder__ nacin i na dunder() nacin.
 
 print(str(point))  # 1,2
+
+

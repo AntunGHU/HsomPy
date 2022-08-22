@@ -12,7 +12,6 @@ save_user(12, name="antun", last="Jerak", star=59)
 
 # a sad finesa o tome kako dobiti value navodjenjem key-a
 
-
 def save_user(**user):
     print(user["name"])
 

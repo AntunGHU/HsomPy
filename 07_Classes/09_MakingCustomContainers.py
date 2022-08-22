@@ -6,8 +6,8 @@ class TagCloud:
     def __init__(self):
         self.tags = {}
 
-    def add(self, tag):
-        self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1
+    def add(self, tag):     # prvo ubacivanje unutar instancnog dicta
+        self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1 # get ga ubacuje i racuna  0 a potom dize za 1
 
     def __getitem__(self, tag):
         return self.tags.get(tag.lower(), 0)
@@ -34,10 +34,17 @@ print(cloud["python"])  # 5
 cloud.add("python")
 cloud["python"] = 10
 print(cloud["python"])  # 10
-print(cloud.tags)   # {'python': 5, 'Python': 1} a poslije {'python': 6}
+print(cloud.tags)   # {'python': 10} 
 print(len(cloud))   # 1
 
 for k in cloud:
-    print(k)
+    print(k)    # python
 
-# tipicni dict se ponasa ovako tj  casesensitive. No, smisao pravljenja custom klase je da je ucini pametnijom od standarne tj da na to ne obraca paznju. To Ath cini dalje tako da ubacuje u definiciju customa metod "lower()". I sad nema posebnog unosa za veliko-malo, sve je isto
+# tipicni dict se ne ponasa ovako tj obicno je casesensitive. No, smisao pravljenja custom klase je da je ucini pametnijom od standarne tj da na to ne obraca paznju. To Ath cini dalje tako da ubacuje u definiciju customa metod "lower()". I sad nema posebnog unosa za veliko-malo, sve je isto
+
+cloud.add("java")
+print(cloud["java"])
+print(cloud.tags) # {'python': 10, 'java': 1}
+
+for k in cloud:
+    print(k)    # python, java

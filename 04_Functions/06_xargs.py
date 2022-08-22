@@ -9,7 +9,6 @@ multiply(2, 3, 4, 5)
 
 # obzirom na kompleksniji ulaz dolazi do prekodiranja funsa
 
-
 def multiply(*numbers):
     for number in numbers:
         print(number)

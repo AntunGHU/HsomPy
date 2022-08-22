@@ -9,7 +9,7 @@ class Point:
 
     @classmethod
     def zero(cls):
-        return cls(0, 0)
+        return cls(0, 0)    # ekvivalent pisanja Point(0,0)
 
     def draw(self):
         print(f"Point ({self.x}, {self.y})")
@@ -18,9 +18,9 @@ class Point:
 point = Point(1,2)
 point.draw()    # Point (1, 2)
 
-# klas metod koristimo kad ne trebamo instancijaciju tj objekt npr kad zelimo inicijalne vrijednosti point-a (0,0). 
+# klas metod koristimo npr kad zelimo inicijalne vrijednosti point-a (0,0). 
 # Njih bi mogli kreirajuci objekt i stavljajuci "point = Point(0,0" ali mozemo i s klasmetodom kao gore! i pozivanjem kao dole
 
 Point.zero() # i time je svaki objekt kreiran iza dobio pocetno (0,0) tako da
 point=Point.zero() # ima (0,0) iako to nismo posebno instantirali! pozivanje navodjenjem imaena klase ili cls
-point.draw()
+point.draw() # (0,0)

@@ -9,20 +9,20 @@
 
 # ? product = Product(-50)
 
-# jedno od rijesenja je da se atribut dodavanjem double-single (mangeln) dundera ucini privatnim i dodaju metodi geter i setter a u constructoru (initu) umjesto direktnog proklamiranja atributa stavimo ga preko setera!
+# jedno od rijesenja je da se atribut dodavanjem double-single (mangeln) dundera ucini privatnim i dodaju geter i setter a u constructoru (initu) umjesto direktnog proklamiranja atributa stavimo ga preko setera!
 
 
 # ? class Product:
 # ?     def __init__(self, price):
-# ?         self.set_price(price)# ?
+# ?         self.set_price(price)           # ?
 
 # ?     def get_price(self):
-# ?         return self.__price# ?
+# ?         return self.__price             # ?
 
 # ?     def set_price(self, value):
 # ?         if value < 0:
 # ?             raise ValueError("Price cannot be negative!")
-# ?         self.__price = value# ?
+# ?         self.__price = value            # ?
 
 # ?     price = property(get_price, set_price)
 
@@ -31,6 +31,12 @@
 
 # ali ovaj nacin je unpythonic
 # pythonic nacin bi bio to use property (vidi gore) poslije kojeg sa ala property-nacinom ocitavamo ali i postavljamo vrijednost. Ako negativna --> raise..
+# postaje mi jasno da attribut i property nije isto!!! Atribut je ono sto sam do sada oznacavao s propsi!
+
+# "Property is an object that sits in front of an attribut and allows us to get and set a value of an attribute. Mosh"
+#-----1.Definiramo cls-attribut sa idealnim imenom - gore "price"
+#-----2.pozivamo builtin func property koja uzima 4 parametra koji su svi opcijski (prvi je fun za geting, drugi fun za seting, treci fun za delanje a cetvrti za  documentation)
+#-----3.Mi cemo postaviti prva dva koja smo vec definirali: get_price i set_price. !!! Mi ne zovemo metod property, samo se referenciramo na nj! a kad ga budemo pozvali(u sklopu atributiranja) on ce nam vratiti property-objekt koji ce koristiti funkcije get_price i set_price za getanje i setanje
 # ? product = Product(100)
 # ? product.price = -1  # ValueError: Price cannot be negative!
 # ? print(product.price)    # 100

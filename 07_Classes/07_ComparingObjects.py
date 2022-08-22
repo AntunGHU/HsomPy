@@ -24,3 +24,5 @@ print(point == point2)   # False pa True
 # TypeError: '>' not supported between instances of 'Point' and 'Point'
 print(point > point2)    # False a nakon izmjene koordinata True
 # zato opet idemo nadopuniti klasu sa novim dudnderom "gt" (greater than) poslije kojeg umjesto error dobijemo True - False
+
+# dakle, za definiranje klase u PY imamo gomilu mogucnosti kroz ugradjene magic metode, ali te mogucnosti postaju aplicirane i realne za kreiranu klasu samo ako se isti definiraju uz datu klasu! Tako za klasu Point realno sada imamo samo metode eq i gt.

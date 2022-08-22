@@ -1,7 +1,7 @@
 # 4'32
 
 # DRY: Dont repeat yourself
-# Kako bi DRY princip proveli posezemo za 1)Inheritance ili 2)Composition
+# Kako bi DRY princip proveli posezemo za 1)Inheritance - ovdje ili 2)Composition - kasnije
 
 class Animal:
     def __init__(self):
@@ -25,3 +25,5 @@ m = Mamal()
 m.eat()
 m.walk()
 print(m.age)   # 1
+
+# inheritance olaksava ispravljanje bagova - radimo samo u parent-klasi a ne na child klasama!!!

@@ -1,5 +1,7 @@
 # 3'45
 
+# Pascal naming convention: Prvo veliko slovo a ako vise rijeci onda CamelCase
+
 class Point:
     def draw(self):
         print("draw")
