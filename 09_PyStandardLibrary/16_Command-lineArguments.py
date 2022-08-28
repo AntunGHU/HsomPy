@@ -9,9 +9,7 @@
 
 import sys
 
-from click import password_option
-
-print(sys.argv)  # ['/home/antun/aCod/HsomPy/app.py']
+print(sys.argv)  # ['/home/antun/aCod/HsomPy/app.py'] # ['/home/antun/aCod/HsomPy/09_PyStandardLibrary/16_Command-lineArguments.py']
 
 # posebni argumenti u Ath-a pruzaju mogucnosti:
 
@@ -19,6 +17,6 @@ if len(sys.argv) == 1:  # situacija kad user nije dao dodatne argse
     print("USAGE: python3 app.py <password>")
 else:
     password = sys.argv[1]
-    print("Password", password)
+    print("Password", password) # Password Antisa # zato jer sam u produzetku cmd-prompta napisao "Antisa"
 
-# sad kad se ovaj "app.py" pozove iz terma s komandom "python3 app.py" (dakle bez dodatnih parametara) dobijemo samo "USAGE: python3 app.py <password>" a ako pokrenemo app.py sa bilo kojim parametrima npr "python3 app.py 1234"  u termu izlazi "Password 1234"
+# sad kad se ovaj "app.py" pozove iz terma s komandom "python3 app.py" (dakle bez dodatnih parametara) dobijemo samo "USAGE: python3 app.py <password>" a ako pokrenemo app.py sa bilo kojim parametrima npr "python3 app.py 1234"  u termu izlazi "Password 1234" tj u mom slucaju: ['/home/antun/aCod/HsomPy/09_PyStandardLibrary/16_Command-lineArguments.py', 'Antisa'] i Password Antisa

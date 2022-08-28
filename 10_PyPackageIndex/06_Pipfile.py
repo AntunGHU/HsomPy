@@ -7,8 +7,10 @@
 # Workflow:
 # Nalazenje virtualenva sa
 # ? > pipenv --venv 
-# ali ne mogu izaci vise jer kad otkucam "exit" on izlazi iz terma i kad term ponovo otvorim on je automatski u nj, ipak sam zatvorivsi folder  i ponovo ulazeci uspio biti izvan venv-a i ukucavam k-du # ? > pipenv --venv 
-# Ljepo mi vraca lokaciju venv-a pri cemu prompt jos uvjek ostaje izvan: #? /home/antun/.local/share/virtualenvs/HsomPy-tyO_AMhm
+# ali ne mogu izaci vise jer kad otkucam "exit" on izlazi iz terma i kad term ponovo otvorim on je automatski u nj, ipak sam zatvorivsi folder  i ponovo ulazeci uspio biti izvan venv-a i ukucavam k-du 
+# ? > pipenv --venv 
+# Ljepo mi vraca lokaciju venv-a pri cemu prompt jos uvjek ostaje izvan: 
+# ? /home/antun/.local/share/virtualenvs/HsomPy-tyO_AMhm
 # sad ce Ath simulirati prebacivanje naseg projekta na server na kome nema venv-a, dakle samo source-cod nase aplikacije. To radi tako da brise ovaj direktorije venv-a kdom:
 # ? > rm -rf /home/antun/.local/share/virtualenvs/HsomPy-tyO_AMhm
 # i kad provjerim sa # ? > pipenv --venv 

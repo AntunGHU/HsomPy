@@ -1,6 +1,6 @@
 # 3'28
 
-# korisne k-de za managing dependencija, sve se kucaju u term neaktiviranog venv-a
+# korisne k-de za managing dependencija, sve se kucaju u term (ne)aktiviranog venv-a
 
 # ? pipenv graph
 # daje listu svih instaliranih dependencija

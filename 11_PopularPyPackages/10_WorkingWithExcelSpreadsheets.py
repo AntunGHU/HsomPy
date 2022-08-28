@@ -5,4 +5,4 @@
 # ? > pipenv install openpyxl
 # selektira virtualenv from statusbar, instalira pylent i pocinje rad u app.py sa 
 # ? import openpyxl
-# ostalo kozna kad i ko zna gdje!
+# ostalo ko zna kad i ko zna gdje!

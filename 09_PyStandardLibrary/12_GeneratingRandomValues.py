@@ -31,3 +31,5 @@ print("".join(random.choices(string.ascii_letters+string.digits, k=15)) +
 numbers = [1, 2, 3, 4, 5, 6]
 random.shuffle(numbers)  # in place
 print(numbers)  # [4, 3, 6, 1, 5, 2]; [1, 6, 4, 3, 5, 2]
+
+print(random.choices(string.ascii_letters+string.digits, k=15) + random.choice(".,!?")) # TypeError: can only concatenate list (not "str") to list

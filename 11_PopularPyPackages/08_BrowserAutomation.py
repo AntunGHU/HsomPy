@@ -1,7 +1,7 @@
 # 11'28
 
 # selenium - za automatizaciju browsera!
-# pokazat ce automatizaciju prijeve na GH!
+# pokazat ce automatizaciju prijave na GH!
 # Zainteresiran sam ali ne mislim to pod novu mapu-projekt nego sa svojim root-mapama i app
 # ? > pipenv install selenium
 # nakon instalacije trebamo dld-ati driver za svoj browser - idemo na pypi
